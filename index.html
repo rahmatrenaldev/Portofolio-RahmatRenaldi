@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio-RahmatRenaldi</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <div class="logo">Rahmat<span>Renaldi</span></div>
+      <nav class="nav-links" id="nav-links">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">Tentang Saya</a>
+        <a href="#projects">Project</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+      <div class="menu-toggle" id="menu-toggle">
+        <i class="bi bi-list"></i>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-left">
+      <h1>Hai, Saya <span class="highlight">Rahmat Renaldi</span></h1>
+      <h2><span class="typed"></span></h2>
+      <div class="social-links">
+        <a href="https://instagram.com/rey.aldi1"><i class="bi bi-instagram"></i></a>
+        <a href="https://linkedin.com/in/rahmat-renaldi-bb71551ba"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <img src="images/pprr.jpg" alt="Foto Rahmat" class="profile-img">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2 class="section-title">Tentang Saya</h2>
+    <p class="section-desc">
+      Pembelajar mandiri dengan minat kuat pada visual digital dan komunikasi. Proaktif dalam mengembangkan solusi digital yang cepat, responsif, dan menarik secara visual. Memiliki adaptabilitas tinggi dan siap segera berkontribusi dalam lingkungan profesional yang dinamis.
+    </p>
+  </section>
+
+  <!-- ✅ Skills Section -->
+  <section id="skills" class="section light">
+    <h2 class="section-title">Keahlian</h2>
+    <div class="skills-container">
+
+      <div class="skill">
+        <span>HTML</span>
+        <div class="progress-bar">
+          <div class="progress-fill" data-percent="85"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <span>CSS</span>
+        <div class="progress-bar">
+          <div class="progress-fill" data-percent="80"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <span>JavaScript</span>
+        <div class="progress-bar">
+          <div class="progress-fill" data-percent="65"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <span>PHP</span>
+        <div class="progress-bar">
+          <div class="progress-fill" data-percent="60"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section (Updated) -->
+<section id="projects" class="section">
+  <h2 class="section-title">Project Terbaru</h2>
+  <p class="section-desc">Beberapa karya yang saya kembangkan dengan fokus pada tampilan menarik, dan fungsionalitas.</p>
+
+  <div class="projects">
+    <div class="project-card">
+      <img src="images/bimbeldhs.png" alt="Project 1">
+      <div class="project-content">
+        <h3>Sistem Manajemen Data Pendaftaran (BIMBEL) dengan Dashboard Admin Responsif</h3>
+        <p>Aplikasi web fungsional yang dikembangkan menggunakan framework Flask (Python) dan database MySQL. Proyek ini berfungsi sebagai sistem satu pintu untuk mengelola data pendaftaran siswa baru dan pendaftaran ulang, serta menyajikan data tersebut dalam Dashboard Admin yang dilindungi oleh autentikasi login. Desain antarmuka dibuat bersih, modern, dan responsif untuk memastikan kemudahan navigasi. Dilengkapi dengan fitur unduh laporan data dalam format PDF</p>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="images/toko-online.png" alt="Project 2">
+      <div class="project-content">
+        <h3>Sistem E-commerce Fashion Lengkap dengan Administrasi Produk dan Integrasi Pembayaran Midtrans</h3>
+        <p>
+          Pengembangan Aplikasi E-commerce menggunakan PHP Murni dan MySQL yang fokus pada pengalaman pengguna yang intuitif (UI/UX Design) dan fungsionalitas transaksi yang lengkap.
+        </p>
+        <p><strong>Fitur Utama:</strong></p>
+        <ol class="project-features">
+          <li><strong>Sistem Administrasi (Admin Panel):</strong> CRUD (Create, Read, Update, Delete) untuk Produk dan Kategori.</li>
+          <li><strong>Sistem Transaksi Real-Time:</strong> Fungsionalitas Keranjang Belanja dan proses Checkout.</li>
+          <li><strong>Integrasi Pembayaran:</strong> Implementasi payment gateway <em>Midtrans</em> untuk memproses pembayaran secara aman dan real-time.</li>
+          <li><strong>Dashboard Keuangan:</strong> Menyajikan ringkasan statistik dan laporan keuangan sederhana.</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="images/toko-rotihome.png" alt="Project 3">
+      <div class="project-content">
+        <h3>Landing Page Toko Roti (Roti ManisKu)</h3>
+        <p>Pengembangan Website Statis (Front-End) untuk toko roti (Bakery Landing Page) menggunakan HTML5 dan CSS.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Contact Section (Updated) -->
+  <section id="contact" class="section light">
+    <h2 class="section-title">Hubungi Saya</h2>
+    <p class="section-desc">
+      Saya terbuka untuk proyek baru, kolaborasi, atau sekadar berdiskusi tentang teknologi.
+    </p>
+
+    <div class="contact-info">
+      <div class="contact-item">
+        <i class="bi bi-geo-alt"></i>
+        <div>
+          <h4>Lokasi</h4>
+          <p>Sleman, DI Yogyakarta, Indonesia</p>
+        </div>
+      </div>
+
+      <div class="contact-item">
+        <i class="bi bi-envelope"></i>
+        <div>
+          <h4>Email</h4>
+          <p><a href="mailto:rahmatrenaldi.dev@gmail.com">rahmatrenaldi101003@gmail.com</a></p>
+        </div>
+      </div>
+
+      <div class="contact-item">
+        <i class="bi bi-whatsapp"></i>
+        <div>
+          <h4>WhatsApp</h4>
+          <p><a href="https://wa.me/62895622010816" target="_blank">+62 895-6220-10816</a></p>
+        </div>
+      </div>
+
+      <div class="contact-item">
+        <i class="bi bi-person-lines-fill"></i>
+        <div>
+          <h4>Media Sosial</h4>
+          <p>
+            <a href="https://linkedin.com/in/rahmat-renaldi-bb71551ba" target="_blank">LinkedIn</a> |
+            <a href="https://instagram.com/rey.aldi1" target="_blank">Instagram</a> |
+            <a href="https://github.com/rahmatrenaldev" target="_blank">GitHub</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <p>© 2025 Rahmat Renaldi</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="main.js"></script>
+
+</body>
+</html>
